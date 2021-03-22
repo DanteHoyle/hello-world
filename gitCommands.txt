@@ -1,0 +1,26 @@
+#### List of Git Repo Commands ####
+
+# Normal Git Operation #
+Add file to git changes
+$ git add <FILE>
+
+Commit changes:
+$ git commit -m "<MESSAGE>"
+
+# Interacting with github #
+Add Remote Connections:
+$ git remote add <REMOTENAME> <URL>
+
+Set URL to remote:
+$ git remote set-url <REMOTENAME <URL>
+
+Pull Changes:
+$ git pull <REMOTENAME> <BRANCHNAME>
+
+View remote addresses
+$ git remote -v
+
+Push Changes 
+$ git push <REMOTENAME> <BRANCH>
+
+## Branching
